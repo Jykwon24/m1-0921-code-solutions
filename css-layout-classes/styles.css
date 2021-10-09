@@ -1,0 +1,52 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+  line-height: normal;
+}
+
+p {
+  font-size: 14px;
+}
+
+img {
+  width: 100%;
+}
+
+h2 {
+  font-weight: bolder;
+}
+
+.container {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row {
+  display: flex;
+}
+
+.column-third {
+  flex-basis: calc(100% / 3);
+}
+
+.column-fourths {
+  flex-basis: calc(100% / 4);
+}
+
+.column-halves-dk1 {
+  flex: 1 1 70%;
+}
+
+.column-halves-dk2 {
+  flex: 1 1 30%;
+}
+
+.column-halves-mario1 {
+  flex: 1 1 30%;
+}
+
+.column-halves-mario2 {
+  flex: 1 1 70%;
+}
