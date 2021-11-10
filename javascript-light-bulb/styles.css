@@ -1,0 +1,31 @@
+body {
+  max-width: 1000px;
+  margin-top: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bulb.on {
+  background-color: #fee440;
+  padding: 100px;
+  margin: auto;
+  border-radius: 50%;
+  box-shadow: 0 -5px 5px #fee440;
+}
+
+.bulb.off {
+  background-color: #212529;
+  padding: 100px;
+  margin: auto;
+  border-radius: 50%;
+  box-shadow: 0 -5px 5px black;
+}
+
+.off {
+  background-color: #0b090a;
+}
+
+.on {
+  background-color: white;
+}
