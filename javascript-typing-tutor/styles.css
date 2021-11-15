@@ -1,0 +1,44 @@
+body {
+  font-family: 'Barlow', sans-serif;
+}
+
+.container {
+  display: flex;
+  margin-top: 200px;
+}
+
+.content {
+  letter-spacing: 1px;
+  font-size: 2rem;
+  justify-content: center;
+  margin: auto;
+}
+
+.correct {
+  color: lightgreen;
+}
+
+.current {
+  border-bottom: solid black;
+}
+
+.current-incorrect {
+  border-bottom: solid red;
+}
+
+.incorrect {
+  color: red;
+}
+
+.refresh {
+  display: none;
+  border-radius: 5rem;
+  height: 2rem;
+  width: 10rem;
+}
+
+.on {
+  border-radius: 5rem;
+  height: 2rem;
+  width: 10rem;
+}
